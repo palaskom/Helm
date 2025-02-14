@@ -3,7 +3,7 @@ entries:
   dummychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-24T18:42:02.946376+03:00"
+    created: "2025-02-15T00:33:26.773173+02:00"
     dependencies:
     - name: tomcat
       repository: oci://registry-1.docker.io/bitnamicharts/tomcat
@@ -15,4 +15,18 @@ entries:
     urls:
     - dummychart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-24T18:42:02.943921+03:00"
+  openai-api-app:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-02-15T00:33:26.773759+02:00"
+    description: The simple OpenAI app can be used to run an OpenAI client on a Kubernetes
+      cluster
+    digest: 3a3e8e833979cabb17525ad3fe246faef694a7c9694b649cfecea08b570e31d0
+    name: openai-api-app
+    sources:
+    - https://github.com/aPaLaSkoS/simple-openai-app.git
+    type: application
+    urls:
+    - openai-api-app-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-02-15T00:33:26.770514+02:00"
